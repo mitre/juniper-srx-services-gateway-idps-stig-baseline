@@ -211,7 +211,6 @@ bundle exec [inspec or cinc-auditor] exec https://github.com/mitre/juniper-srx-s
 
 # Using `juniper` transport with bastion host
 bundle exec [inspec or cinc-auditor] exec https://github.com/mitre/juniper-srx-services-gateway-idps-stig-baseline.git --input-file=<your_inputs_file.yml> -t juniper://username@device.example.com --password 'secret' --bastion-host='jump-host-name' --reporter=cli json:<your_results_file.json>
-
 ```
 
 [top](#table-of-contents)
@@ -235,7 +234,6 @@ bundle exec [inspec or cinc-auditor] exec <name of generated archive> --input-fi
 
 # Using `juniper` transport with bastion host
 bundle exec [inspec or cinc-auditor] exec <name of generated archive> --input-file=<your_inputs_file.yml> -t juniper://username@device.example.com --password 'secret' --bastion-host='jump-host-name' --reporter=cli json:<your_results_file.json>
-   
 ```
 
 For every successive run, follow these steps to always have the latest version of this profile baseline:
@@ -251,7 +249,6 @@ bundle exec [inspec or cinc-auditor] exec <name of generated archive> --input-fi
 
 # Using `juniper` transport with bastion host
 bundle exec [inspec or cinc-auditor] exec <name of generated archive> --input-file=<your_inputs_file.yml> -t juniper://username@device.example.com --password 'secret' --bastion-host='jump-host-name' --reporter=cli json:<your_results_file.json>   
-   
 ```
 
 [top](#table-of-contents)
